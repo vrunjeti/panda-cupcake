@@ -1,0 +1,29 @@
+{
+  "name": "panda-cupcake",
+  "version": "1.0.0",
+  "description": "Alexa skill for satisfying your sweet tooth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "zip": "zip -r out.zip index.js dist node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrunjeti/panda-cupcake.git"
+  },
+  "author": "Varun Munjeti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrunjeti/panda-cupcake/issues"
+  },
+  "homepage": "https://github.com/vrunjeti/panda-cupcake#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "yelp": "^1.0.2"
+  }
+}
